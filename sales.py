@@ -1,0 +1,8 @@
+age = int(input("How old are you? "))
+print(f"On your next birthday you will be {age+1}")
+print()
+egg = int(input("How many eggs cartons do you have? "))
+print(f"You have {egg*12} eggs")
+num_cookies = float(input("How many cookies do you have? "))
+num_people = float(input("How many people are there? "))
+print(f"Each person may have {num_cookies/num_people} cookies")
